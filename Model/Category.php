@@ -37,6 +37,8 @@ abstract class Category implements CategoryInterface
     protected $parent;
 
     protected $media;
+    
+    protected $count;
 
     /**
      * {@inheritdoc}
