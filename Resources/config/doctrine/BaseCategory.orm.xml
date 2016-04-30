@@ -6,6 +6,7 @@
         <field name="name"          type="string"     column="name"        />
         <field name="enabled"       type="boolean"    column="enabled"        default="false" />
         <field name="slug"          type="string"     column="slug"       />
+        <field name="count"         type="integer"     column="count"       />
         <field name="description"   type="string"     column="description"    nullable="true" />
         <field name="position"      type="integer"    column="position"       nullable="true" />
         <field name="createdAt"     type="datetime"   column="created_at" />
